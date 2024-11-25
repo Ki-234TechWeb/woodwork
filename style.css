@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Raleway', sans-serif;
-overflow: hidden;
+
 }
 :root{
 --mainwhite:#FFFFFF;
@@ -57,6 +57,7 @@ width: 160px;
 }
 
 .navbar{
+ width:100%
 display: flex;
 justify-content: space-between;
 align-items: baseline;
