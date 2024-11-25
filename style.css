@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Raleway', sans-serif;
-
+overflow: hidden;
 }
 :root{
 --mainwhite:#FFFFFF;
@@ -44,7 +44,10 @@ color: var(--carton-color);
 
 }
 
-
+.insights{
+padding-left:10px;
+ padding-right:10px;
+}
 
 
 .nav-img img{
@@ -103,8 +106,7 @@ position: relative;
     }
     
     .bg3{
-        background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/woodwork
-         img/bg-3.webp) center/cover no-repeat  ;
+        background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/woodwork/img/bg-3.webp) center/cover no-repeat  ;
         min-height: 90vh;
         position: relative;
         
